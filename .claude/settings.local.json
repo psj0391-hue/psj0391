@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf \"c:/Users/happy/OneDrive/문서/GitHub/psj0391/SHORTS\" \"c:/Users/happy/OneDrive/문서/GitHub/psj0391/TRADING\" \"c:/Users/happy/OneDrive/문서/GitHub/psj0391/UTILS\")",
+      "Bash(mkdir -p \"c:/Users/happy/OneDrive/문서/GitHub/psj0391/BOTS/shorts_maker\" \"c:/Users/happy/OneDrive/문서/GitHub/psj0391/BOTS/trading_bot\" \"c:/Users/happy/OneDrive/문서/GitHub/psj0391/BOTS/utils\")",
+      "Bash(touch \"c:/Users/happy/OneDrive/문서/GitHub/psj0391/BOTS/shorts_maker/.gitkeep\" \"c:/Users/happy/OneDrive/문서/GitHub/psj0391/BOTS/trading_bot/.gitkeep\" \"c:/Users/happy/OneDrive/문서/GitHub/psj0391/BOTS/utils/.gitkeep\")",
+      "Bash(uv pip *)",
+      "Bash(uv venv *)",
+      "Bash(\"c:/Users/happy/OneDrive/문서/GitHub/psj0391/.venv/Scripts/python.exe\" main.py)",
+      "Bash(c:/Users/happy/OneDrive/문서/GitHub/psj0391/.venv/Scripts/python.exe -c ' *)",
+      "Bash(\"c:/Users/happy/OneDrive/문서/GitHub/psj0391/.venv/Scripts/python.exe\" -m pip install finance-datareader)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:apiportal.koreainvestment.com)",
+      "WebFetch(domain:wikidocs.net)",
+      "WebFetch(domain:glama.ai)",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:velog.io)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}
