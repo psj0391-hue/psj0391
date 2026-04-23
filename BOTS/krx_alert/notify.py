@@ -1,4 +1,5 @@
 import os
+import sys
 import requests
 from dotenv import load_dotenv, find_dotenv
 
@@ -11,7 +12,7 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "").strip()
 def send(text: str) -> None:
     if not BOT_TOKEN or not CHAT_ID:
         print("[WARN] 텔레그램 토큰/채팅ID 미설정")
-        print(text)
+        sys.stdout.buffer.write((text + "\n").encode("utf-8", errors="replace"))
         return
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"

@@ -2,3 +2,6 @@ python-dotenv
 requests
 pandas
 schedule
+feedparser
+google-generativeai
+Pillow
