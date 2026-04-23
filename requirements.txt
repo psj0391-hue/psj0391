@@ -5,3 +5,8 @@ schedule
 feedparser
 google-generativeai
 Pillow
+beautifulsoup4
+groq
+moviepy
+playwright
+edge-tts
